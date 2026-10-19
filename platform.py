@@ -821,7 +821,7 @@ seasons_rows = q("SELECT season_year, is_active FROM academic_seasons ORDER BY i
 seasons_list = [r["season_year"] for r in seasons_rows]
 active_season = get_active_season()
 
-st.sidebar.header("⚙️ إدارة المواسم والبوابة")
+st.sidebar.header("⚙️ مدير الحاضنة")
 
 selected_season = st.sidebar.selectbox(
     "📅 الموسم الجامعي الحالي:",
